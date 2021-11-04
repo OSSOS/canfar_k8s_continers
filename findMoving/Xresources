@@ -1,0 +1,6 @@
+XTerm*vt100.translations: #override \
+    Shift Ctrl <Key> C: copy-selection(SELECT) \n\
+    Shift Ctrl <Key> V: insert-selection(SELECT)
+
+xterm*font: -adobe-courier-medium-r-normal--14-100-100-*-m-90-*-*
+xterm*background: white
